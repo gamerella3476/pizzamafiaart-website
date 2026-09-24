@@ -19,7 +19,10 @@
 body {
     font-family: Arial;
     padding: 20px;
-    background-color: #000000;
+    background-color: #000066;
+    background-image: url(../image-elements/background-gradient.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 }
 
 
