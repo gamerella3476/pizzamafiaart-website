@@ -22,62 +22,7 @@ body {
     background-color: #000000;
 }
 
-/* Header/Blog Title */
-.header {
-    font-size: 40px;
-    text-align: center;
-    background-color: #E88E90;
-}
 
-.headertitle {
-    font-size: 40px;
-    text-align: center;
-    background-color: #9A0002;
-    padding-top: 42px;
-    padding-right: 42px;
-    padding-bottom: 42px;
-    padding-left: 42px;
-}
-
-.linkbutton {
-    font-size: 20px;
-    text-align: center;
-    padding-right: 6px;
-    padding-left: 6px;
-    padding-bottom: 6px;
-    width: 20%;
-    position: absolute;
-    clear: left;
-}
-
-.linkbar ul{
-    list-style: none;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    text-align: center;
-    font-size: 16pt;
-    padding-bottom: 13px;
-}
-
-.linkbar li{
-    background-color: #84C0FF;
-    width: 16%;
-    display: inline-block;
-    height: 98px;
-    text-align: center;
-    padding-bottom: 38px;
-}
-
-.linkbar {
-    font-size: 20px;
-    text-align: center;
-    background-color: #0D007F;
-    float: right;
-    clear: right;
-    width: 100%;
-}
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
@@ -148,13 +93,7 @@ body {
     clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
+
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 
@@ -207,6 +146,66 @@ body {
     font-size: xx-large;
     color: #72A4E0;
 }
+
+/* Header/Blog Title/navbar */
+.header {
+    font-size: 40px;
+    text-align: center;
+    background-color: #E88E90;
+}
+
+.headertitle {
+    font-size: 40px;
+    text-align: center;
+    background-color: #9A0002;
+    padding-top: 42px;
+    padding-right: 42px;
+    padding-bottom: 42px;
+    padding-left: 42px;
+    background-image: url(../image-elements/pizzamafiaart%20logo%20black%20outline.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    margin-bottom: 7px;
+}
+
+.linkbutton {
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    clear: left;
+}
+
+.linkbar ul{
+    list-style: none;
+    text-align: center;
+    font-size: 16pt;
+    width: 92%;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-bottom: 0px;
+}
+
+.linkbar li{
+    width: 15%;
+    display: inline-block;
+    height: 98px;
+    text-align: center;
+    padding-bottom: 38px;
+    padding-left: 0px;
+}
+
+.linkbar {
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    clear: right;
+    width: 100%;
+}
+
 .navlink1 {
     background-color: #02FF00;
     height: 83px;
@@ -267,4 +266,51 @@ body {
     background-image: url(../image-elements/nav6.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+/*END OF HEADER AND NAVBAR*/
+
+/*FOOTER DIVS*/
+/* Footer */
+.footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.footer-leftcolumn {
+    width: 75%;
+    clear: none;
+    float: left;
+    background-color: #CB6D6F;
+    margin-top: 5px;
+}
+.footer-leftcolumn ul{
+    list-style: none;
+    text-align: center;
+    background-color: #37D4ED;
+}
+.footer-leftcolumn li{
+    background-color: #56F75E;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.footer-rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    clear: right;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+.footer-rightcolumn ul{
+    list-style: none;
+    text-align: center;
+    background-color: #37D4ED;
+}
+.footer-rightcolumn li{
+    margin-bottom: 5px;
+
 }
