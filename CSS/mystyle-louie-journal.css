@@ -169,13 +169,11 @@ body {
 .header {
     font-size: 40px;
     text-align: center;
-    background-color: #E88E90;
 }
 
 .headertitle {
     font-size: 40px;
     text-align: center;
-    background-color: #9A0002;
     padding-top: 42px;
     padding-right: 42px;
     padding-bottom: 42px;
@@ -225,7 +223,7 @@ body {
 }
 
 .navlink1 {
-    background-color: #02FF00;
+    background-color: #000000;
     height: 83px;
     padding-top: 15px;
     padding-bottom: 38px;
@@ -234,9 +232,8 @@ body {
     background-size: 102% 102%;
 }
 
-
 .navlink2 {
-    background-color: #02FF00;
+    background-color: #000000;
     padding-top: 15px;
     padding-bottom: 38px;
     background-size: contain;
@@ -247,7 +244,7 @@ body {
 }
 
 .navlink3 {
-    background-color: #02FF00;
+    background-color: #000000;
     height: 87px;
     padding-top: 10px;
     padding-bottom: 38px;
@@ -257,7 +254,7 @@ body {
 }
 
 .navlink4 {
-    background-color: #02FF00;
+    background-color: #000000;
     height: 98px;
     padding-top: 25px;
     padding-bottom: 38px;
@@ -268,7 +265,7 @@ body {
 }
 
 .navlink5 {
-    background-color: #02FF00;
+    background-color: #000000;
     height: 98px;
     padding-top: 15px;
     padding-bottom: 38px;
@@ -278,7 +275,7 @@ body {
 }
 
 .navlink6 {
-    background-color: #02FF00;
+    background-color: #000000;
     height: 98px;
     padding-top: 15px;
     padding-bottom: 38px;
@@ -295,23 +292,20 @@ body {
     padding-left: 20px;
     padding-bottom: 5px;
     text-align: center;
-    background: #ddd;
+    background-color: #FFFFFF;
     margin-top: 20px;
 }
 .footer-leftcolumn {
     width: 75%;
     clear: none;
     float: left;
-    background-color: #CB6D6F;
     margin-top: 5px;
 }
 .footer-leftcolumn ul{
     list-style: none;
     text-align: center;
-    background-color: #37D4ED;
 }
 .footer-leftcolumn li{
-    background-color: #56F75E;
     display: inline-block;
     margin-left: 3%;
 }
@@ -327,7 +321,6 @@ body {
 .footer-rightcolumn ul{
     list-style: none;
     text-align: center;
-    background-color: #37D4ED;
 }
 .footer-rightcolumn li{
     margin-bottom: 5px;
