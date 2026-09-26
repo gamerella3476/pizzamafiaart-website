@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*PARAGRAPH SETS*/
+.p1 {
+	
+	
+}
+
+
+/*END PARAGRAPH SETS*/
+
+* {
+    box-sizing: border-box;
+    clear: left;
+    float: none;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #000066;
+    background-image: url(../image-elements/background-gradient.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    width: 75%;
+    clear: none;
+    float: left;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    clear: right;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: thin solid #6EC2FF;
+    background-image: url(../journals/page_elements/agedpaper-bg.jpg);
+    background-size: cover;
+}
+
+.cardtitledate {
+    width: 100%;
+    border-radius: 6px;
+    border: thin solid #FF898B;
+    background-color: #B8B8B8;
+    margin-bottom: 5px;
+}
+
+.card h2 {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.card h4 {
+    width: 40%;
+    clear: left;
+    margin-top: -19px;
+    color: #241B74;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.card h5 {
+    text-align: right;
+    right: 0px;
+    float: right;
+    color: #241B74;
+    text-shadow: 0px 0px #241B74;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width : 800px ){
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+/*	responsive layout. makes the linkbar div snap to below the header image when screen is less than 800px wide. works well for phone screens.*/
+	
+	@media screen and (max-width : 800px ){
+.linkbar {
+    width: 100%;
+    padding: 0;
+  }
+	}
+
+
+
+.archivelist {
+    text-align: left;
+	
+}
+
+.postlistfont {
+    line-height: 26%;
+    background-color: #E4FF4D;
+    margin-left: 17px;
+    margin-top: -3%;
+    margin-bottom: 4%;
+}
+
+.miscpostlist {
+    line-height: 26%;
+    margin-left: 17px;
+    margin-bottom: 4%;
+}
+
+.miscpostlist-side {
+    margin-left: 17px;
+    margin-bottom: 4%;
+    margin-top: -5%;
+}
+.miscpostlist-side ul{
+}
+
+.miscpostlist-side li{
+    margin-top: -10%;
+    padding-left: 0px;
+    margin-left: -27%;
+    list-style-type: none;
+}
+
+.inner-card {
+	
+	
+}
+
+.post-section-title {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #72A4E0;
+}
+
+/* Header/Blog Title/navbar */
+.header {
+    font-size: 40px;
+    text-align: center;
+    background-color: #E88E90;
+}
+
+.headertitle {
+    font-size: 40px;
+    text-align: center;
+    background-color: #9A0002;
+    padding-top: 42px;
+    padding-right: 42px;
+    padding-bottom: 42px;
+    padding-left: 42px;
+    background-image: url(../image-elements/pizzamafiaart%20logo%20black%20outline.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    margin-bottom: 7px;
+}
+
+.linkbutton {
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    clear: left;
+}
+
+.linkbar ul{
+    list-style: none;
+    text-align: center;
+    font-size: 16pt;
+    width: 92%;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin-bottom: 0px;
+}
+
+.linkbar li{
+    width: 15%;
+    display: inline-block;
+    height: 98px;
+    text-align: center;
+    padding-bottom: 38px;
+    padding-left: 0px;
+}
+
+.linkbar {
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    clear: right;
+    width: 100%;
+}
+
+.navlink1 {
+    background-color: #02FF00;
+    height: 83px;
+    padding-top: 15px;
+    padding-bottom: 38px;
+    background-image: url(../image-elements/nav1.png);
+    background-repeat: no-repeat;
+    background-size: 102% 102%;
+}
+
+
+.navlink2 {
+    background-color: #02FF00;
+    padding-top: 15px;
+    padding-bottom: 38px;
+    background-size: contain;
+    background-image: url(../image-elements/nav2.png);
+    background-repeat: no-repeat;
+    height: 86px;
+    padding-left: 39px;
+}
+
+.navlink3 {
+    background-color: #02FF00;
+    height: 87px;
+    padding-top: 10px;
+    padding-bottom: 38px;
+    background-image: url(../image-elements/nav3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navlink4 {
+    background-color: #02FF00;
+    height: 98px;
+    padding-top: 25px;
+    padding-bottom: 38px;
+    background-image: url(../image-elements/nav4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -9%;
+}
+
+.navlink5 {
+    background-color: #02FF00;
+    height: 98px;
+    padding-top: 15px;
+    padding-bottom: 38px;
+    background-image: url(../image-elements/nav5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navlink6 {
+    background-color: #02FF00;
+    height: 98px;
+    padding-top: 15px;
+    padding-bottom: 38px;
+    background-image: url(../image-elements/nav6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*END OF HEADER AND NAVBAR*/
+
+/*FOOTER DIVS*/
+/* Footer */
+.footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.footer-leftcolumn {
+    width: 75%;
+    clear: none;
+    float: left;
+    background-color: #CB6D6F;
+    margin-top: 5px;
+}
+.footer-leftcolumn ul{
+    list-style: none;
+    text-align: center;
+    background-color: #37D4ED;
+}
+.footer-leftcolumn li{
+    background-color: #56F75E;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.footer-rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    clear: right;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+.footer-rightcolumn ul{
+    list-style: none;
+    text-align: center;
+    background-color: #37D4ED;
+}
+.footer-rightcolumn li{
+    margin-bottom: 5px;
+
+}
