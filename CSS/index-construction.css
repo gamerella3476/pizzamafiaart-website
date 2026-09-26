@@ -233,11 +233,12 @@ body {
     border: thin solid #FF898B;
     background-color: #B8B8B8;
     margin-bottom: 5px;
+    padding-bottom: 0px;
 }
 
 .card h2 {
-    margin-left: 10px;
-    margin-top: 2px;
+    margin-top: 18px;
+    text-align: center;
 }
 .card h4 {
     width: 40%;
@@ -319,3 +320,21 @@ body {
     color: #72A4E0;
 }
 
+.construction-image {
+    width: 30%;
+    height: 100%;
+    background-image: url(../image-elements/under-construction.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin-left: 41px;
+}
+.construction-text {
+    float: right;
+    width: 66%;
+    margin-top: -14%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+}
