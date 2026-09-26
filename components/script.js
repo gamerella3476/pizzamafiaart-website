@@ -11,15 +11,15 @@
      // Load components when the page loads
 
      window.onload = function() {
-loadComponent('header.html', 'header-container');
+loadComponent('/components/header.html', 'header-container');
 
-loadComponent('journalnav-component.html', 'journal-nav');
+loadComponent('/components/journalnav-component.html', 'journal-nav');
 
-loadComponent('aboutme-component.html', 'aboutme-card');
+loadComponent('/components/aboutme-component.html', 'aboutme-card');
 
-loadComponent('socials-component.html', 'socials-card');
+loadComponent('/components/socials-component.html', 'socials-card');
 
-loadComponent('footer-component.html', 'footer-container');	 
+loadComponent('/components/footer-component.html', 'footer-container');	 
 //Left: the html file being called.
 //right: the name of the dv being replaced with html file
      };
