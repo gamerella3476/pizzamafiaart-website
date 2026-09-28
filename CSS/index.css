@@ -61,44 +61,27 @@
 
 
 .navlink1 {
-    background-image: url(../image-elements/nav1.png);
-    background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
 }
 
 .navlink2 {
-    background-size: contain;
-    background-image: url(../image-elements/nav2.png);
-    background-repeat: no-repeat;
     height: 100%;
 }
 
 .navlink3 {
-    background-image: url(../image-elements/nav3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
 	    height: 100%;
 }
 
 .navlink4 {
-    background-image: url(../image-elements/nav4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 	    height: 100%;
 }
 
 .navlink5 {
-    background-image: url(../image-elements/nav5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 	    height: 100%;
 }
 
 .navlink6 {
-    background-image: url(../image-elements/nav6.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 	    height: 100%;
 }
 /*END OF HEADER AND NAVBAR*/
@@ -251,7 +234,7 @@ body {
 .linkbar {
     width: 100%;
     padding: 0;
-    height: 74px;
+    height: 93px;
     margin-bottom: -1%;
     background-color: #000000;
     border-radius: 20px;
