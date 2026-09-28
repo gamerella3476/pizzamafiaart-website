@@ -7,134 +7,9 @@
 	
 }
 
-/* Header/Blog Title/navbar */
-.header {
-    font-size: 40px;
-    text-align: center;
-}
-
-.headertitle {
-    font-size: 40px;
-    text-align: center;
-    padding-top: 42px;
-    padding-right: 42px;
-    padding-bottom: 42px;
-    padding-left: 42px;
-    background-image: url(../image-elements/pizzamafiaart%20logo%20black%20outline.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    margin-bottom: 7px;
-}
-
-.linkbar ul{
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-type: none;
-}
-
-.linkbar li{
-    width: 140px;
-    margin-right: 1%;
-}
-
-.linkbar {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-}
-
-
-.navlink1 {
-    background-image: url(../image-elements/nav1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-}
-
-.navlink2 {
-    background-size: contain;
-    background-image: url(../image-elements/nav2.png);
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
-.navlink3 {
-    background-image: url(../image-elements/nav3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-	    height: 100%;
-}
-
-.navlink4 {
-    background-image: url(../image-elements/nav4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-	    height: 100%;
-}
-
-.navlink5 {
-    background-image: url(../image-elements/nav5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-	    height: 100%;
-}
-
-.navlink6 {
-    background-image: url(../image-elements/nav6.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-	    height: 100%;
-}
-/*END OF HEADER AND NAVBAR*/
-
-/*FOOTER DIVS*/
-/* Footer */
-.footer {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    text-align: center;
-    background-color: #FFFFFF;
-    margin-top: 20px;
-}
-.footer-leftcolumn {
-    width: 75%;
-    clear: none;
-    float: left;
-    margin-top: 5px;
-}
-.footer-leftcolumn ul{
-    list-style: none;
-    text-align: center;
-}
-.footer-leftcolumn li{
-    display: inline-block;
-    margin-left: 3%;
-}
-
-.footer-rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-    clear: right;
-    padding-top: 0px;
-    margin-top: -10px;
-}
-.footer-rightcolumn ul{
-    list-style: none;
-    text-align: center;
-}
-.footer-rightcolumn li{
-    margin-bottom: 5px;
-
-}
 
 
 /*END PARAGRAPH SETS*/
-
 * {
     box-sizing: border-box;
     clear: left;
@@ -234,25 +109,6 @@ body {
 }
 /*	responsive layout. makes the linkbar div snap to below the header image when screen is less than 800px wide. works well for phone screens.*/
 	
-	@media screen and (max-width : 940px ){
-		linkbar ul{
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-type: none;
-}
-
-.linkbar li{
-    width: 90px;
-}
-
-.linkbar {
-    height: 84px;
-    display: flex;
-    justify-content: space-between;
-}
-		
-	}
 
 
 

@@ -327,3 +327,13 @@ body {
     margin-bottom: 5px;
 
 }
+
+.followme-socials h3{
+    text-align: center;
+    margin-top: 0px;
+}
+.followme-socials li{
+    list-style-type: none;
+    line-height: 40%;
+    text-align: center;
+}

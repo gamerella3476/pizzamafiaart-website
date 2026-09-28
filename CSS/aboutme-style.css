@@ -8,8 +8,8 @@
 }
 
 
-/*END PARAGRAPH SETS*/
 
+/*END PARAGRAPH SETS*/
 * {
     box-sizing: border-box;
     clear: left;
@@ -19,44 +19,37 @@
 body {
     font-family: Arial;
     padding: 20px;
-    background-image: url(../journals/page_elements/yakupipek-desert-7395022.jpg);
-    background-position: 0% 47%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000066;
+    background-image: url(../image-elements/background-gradient.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 }
 
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
-    width: 75%;
+    width: 90%;
     clear: none;
-    float: left;
-}
-
-/* Right column */
-.rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-    clear: right;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Add a card effect for articles */
 .card {
+    background-color: white;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
     border: thin solid #6EC2FF;
-    background-image: url(../journals/page_elements/agedpaper-bg.jpg);
-    background-size: cover;
 }
 
 .cardtitledate {
@@ -97,6 +90,8 @@ body {
     clear: both;
 }
 
+
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width : 800px ){
@@ -106,16 +101,18 @@ body {
   }
 }
 /*	responsive layout. makes the linkbar div snap to below the header image when screen is less than 800px wide. works well for phone screens.*/
-
+	
 
 
 
 .archivelist {
+    background-color: #25F436;
     text-align: left;
 	
 }
 .postlistfont {
     line-height: 26%;
+    background-color: #E4FF4D;
     margin-left: 17px;
     margin-top: -3%;
     margin-bottom: 4%;
@@ -123,23 +120,9 @@ body {
 
 .miscpostlist {
     line-height: 26%;
+    background-color: #E4FF4D;
     margin-left: 17px;
     margin-bottom: 4%;
-}
-
-.miscpostlist-side {
-    margin-left: 17px;
-    margin-bottom: 4%;
-    margin-top: -5%;
-}
-.miscpostlist-side ul{
-}
-
-.miscpostlist-side li{
-    margin-top: -10%;
-    padding-left: 0px;
-    margin-left: -27%;
-    list-style-type: none;
 }
 
 .inner-card {
@@ -155,3 +138,63 @@ body {
     color: #72A4E0;
 }
 
+.followme-socials h3{
+    text-align: center;
+    margin-top: 0px;
+}
+.followme-socials li{
+    list-style-type: none;
+    line-height: 40%;
+    text-align: center;
+}
+.followme-list {
+    width: 50%;
+    clear: none;
+    float: left;
+    line-height: 20%;
+    list-style-type: none;
+}
+.followme-list li{
+    list-style-type: none;
+    text-indent: 0px;
+    margin-right: auto;
+    width: 50%;
+}
+.followme-list ul{
+    width: 47%;
+    text-indent: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.followme-list h3{
+	text-align: center;
+}
+.support-list {
+    line-height: 20%;
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+    clear: right;
+    list-style-type: none;
+}
+.support-list li{
+    list-style-type: none;	
+}
+.support-list ul{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.support-list h3{
+    text-align: center;
+}
+.contactme-list {
+    text-align: center;
+    list-style-type: none;
+}
+.contact-all-links {
+    height: 125px;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+}
