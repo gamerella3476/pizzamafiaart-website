@@ -27,103 +27,79 @@
     margin-bottom: 7px;
 }
 
-.linkbutton {
-    font-size: 20px;
-    text-align: center;
-    width: 20%;
-    position: absolute;
-    clear: left;
-}
-
 .linkbar ul{
     list-style: none;
-    text-align: center;
-    font-size: 16pt;
-    width: 92%;
-    position: relative;
-    left: auto;
-    right: auto;
-    top: auto;
-    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 1.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5px;
+    height: 70px;
 }
 
 .linkbar li{
-    width: 15%;
     display: inline-block;
-    height: 98px;
     text-align: center;
-    padding-bottom: 38px;
-    padding-left: 0px;
+    float: left;
+    padding-top: 0px;
+    margin-top: -0.5%;
+    width: 14%;
+    height: 100%;
+    margin-right: 2%;
 }
 
 .linkbar {
-    font-size: 20px;
-    text-align: center;
-    float: right;
-    clear: right;
-    width: 100%;
+    margin-bottom: -1%;
+    background-color: #000000;
+    border-radius: 20px;
+    border: thick solid #009BFF;
 }
 
+
 .navlink1 {
-    background-color: #000000;
-    height: 83px;
-    padding-top: 15px;
-    padding-bottom: 38px;
     background-image: url(../image-elements/nav1.png);
     background-repeat: no-repeat;
-    background-size: 102% 102%;
+    background-size: contain;
+    height: 100%;
 }
 
 .navlink2 {
-    background-color: #000000;
-    padding-top: 15px;
-    padding-bottom: 38px;
     background-size: contain;
     background-image: url(../image-elements/nav2.png);
     background-repeat: no-repeat;
-    height: 86px;
-    padding-left: 39px;
+    height: 100%;
 }
 
 .navlink3 {
-    background-color: #000000;
-    height: 87px;
-    padding-top: 10px;
-    padding-bottom: 38px;
     background-image: url(../image-elements/nav3.png);
     background-repeat: no-repeat;
     background-size: contain;
+	    height: 100%;
 }
 
 .navlink4 {
-    background-color: #000000;
-    height: 98px;
-    padding-top: 25px;
-    padding-bottom: 38px;
     background-image: url(../image-elements/nav4.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -9%;
+	    height: 100%;
 }
 
 .navlink5 {
-    background-color: #000000;
-    height: 98px;
-    padding-top: 15px;
-    padding-bottom: 38px;
     background-image: url(../image-elements/nav5.png);
     background-size: contain;
     background-repeat: no-repeat;
+	    height: 100%;
 }
 
 .navlink6 {
-    background-color: #000000;
-    height: 98px;
-    padding-top: 15px;
-    padding-bottom: 38px;
     background-image: url(../image-elements/nav6.png);
     background-size: contain;
     background-repeat: no-repeat;
+	    height: 100%;
 }
 /*END OF HEADER AND NAVBAR*/
 
@@ -206,9 +182,10 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Add a card effect for articles */
@@ -274,6 +251,11 @@ body {
 .linkbar {
     width: 100%;
     padding: 0;
+    height: 74px;
+    margin-bottom: -1%;
+    background-color: #000000;
+    border-radius: 20px;
+    border: thick solid #009BFF;
   }
 	}
 
@@ -312,3 +294,12 @@ body {
     color: #72A4E0;
 }
 
+.followme-socials h3{
+    text-align: center;
+    margin-top: 0px;
+}
+.followme-socials li{
+    list-style-type: none;
+    line-height: 40%;
+    text-align: center;
+}
