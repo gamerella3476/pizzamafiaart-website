@@ -28,60 +28,64 @@
 }
 
 .linkbar ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-    margin-right: 5px;
-    margin-top: 1.5%;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 5px;
-    height: 70px;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
 }
 
 .linkbar li{
-    display: inline-block;
-    text-align: center;
-    float: left;
-    padding-top: 0px;
-    margin-top: -0.5%;
-    width: 14%;
-    height: 100%;
-    margin-right: 2%;
+    width: 140px;
+    margin-right: 1%;
 }
 
 .linkbar {
-    margin-bottom: -1%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
     background-color: #000000;
-    border-radius: 20px;
-    border: thick solid #009BFF;
 }
 
 
 .navlink1 {
+    background-image: url(../image-elements/nav1.png);
+    background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
 }
 
 .navlink2 {
+    background-size: contain;
+    background-image: url(../image-elements/nav2.png);
+    background-repeat: no-repeat;
     height: 100%;
 }
 
 .navlink3 {
+    background-image: url(../image-elements/nav3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 	    height: 100%;
 }
 
 .navlink4 {
+    background-image: url(../image-elements/nav4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 	    height: 100%;
 }
 
 .navlink5 {
+    background-image: url(../image-elements/nav5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 	    height: 100%;
 }
 
 .navlink6 {
+    background-image: url(../image-elements/nav6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 	    height: 100%;
 }
 /*END OF HEADER AND NAVBAR*/
@@ -230,16 +234,24 @@ body {
 }
 /*	responsive layout. makes the linkbar div snap to below the header image when screen is less than 800px wide. works well for phone screens.*/
 	
-	@media screen and (max-width : 800px ){
+	@media screen and (max-width : 940px ){
+		linkbar ul{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+.linkbar li{
+    width: 90px;
+}
+
 .linkbar {
-    width: 100%;
-    padding: 0;
-    height: 93px;
-    margin-bottom: -1%;
-    background-color: #000000;
-    border-radius: 20px;
-    border: thick solid #009BFF;
-  }
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+		
 	}
 
 
