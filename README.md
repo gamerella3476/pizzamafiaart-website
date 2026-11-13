@@ -7,6 +7,11 @@ If you're reading this, I don't know how you got here. You won't really find any
 <br><br>
 Listen, I'm an artist, not a computer engineer or anything like that. If you take issue with this repository, or how I've laid out my site, please let me know, and give me some pointers. 
 <br><br>
+Most images/art are hosted on Imgur at https://pizzamafiaartsite.imgur.com
+this is to keep the repository size down, while also preserving the image quality of my artwork.
+Please for the love of god, imgue, DONT get shut down because it will be a BITCH to re-upload everything.
+<br><br>
+
 This website's main pages
 <br>
 Index: Recent posts, ie: new pages I've added.
